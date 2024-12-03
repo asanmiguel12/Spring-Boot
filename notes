@@ -1,0 +1,8 @@
+Controller: Java file that holds the endpoints
+Endpoints are methods that are mapped to a URL
+When this URL is called from the outside, the method is executed
+In the controller, we don't want business logic
+From within the controller, we call the service for business logic
+In the service, we deal with any specific requirements
+In the service, we use the repository as a datasource / dao
+The repository is automagically created when it extends the correct interface
